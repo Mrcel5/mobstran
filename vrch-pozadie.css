@@ -1,0 +1,60 @@
+@import "farby.css";
+div.pozadie{background-image: url("obr.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:local;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 1% ;
+    font-size: 200px;
+    padding-bottom: 17%;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--txtb);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    h1.vrch-pozadie{ font-size: 10vw;
+        text-align: center;
+        color: var(--txtb);
+        margin-top: 13%;
+    }
+
+    div.button {
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+
+    @media (max-width: 600px){
+        div.pozadie{
+            font-size: 50px;
+            height: 80vh;
+            width: 100vw;
+
+        }
+        h1.vrch-pozadie{
+            font-size: 80px;
+            margin-top: 30%
+        }
+
+        div.button{
+            background-color: var(--farba3);
+            width: 200px;
+            height: 60px;
+            font-size: 33px;
+            border-radius: 20px;
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a{text-decoration: none;
+            color:var(--txtb)
+        }
+     
+    }

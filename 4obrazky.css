@@ -1,0 +1,140 @@
+@import "farby.css";
+
+
+ul.parent{max-width: 100%;
+    height: 500px;
+    background-color:var(--farba4);
+    display: flex;
+    padding: 5%;
+    align-items: center;}
+
+li.kid1{background-image: url(leto.png);
+  height: 445px;
+  margin-right: 20px; 
+  width: 22%;
+  margin-left: auto;
+  text-align: center;
+  font-size: 0px; 
+  background-position: center;
+  border-radius: 15px;
+  transition-duration: 700ms;
+  background-repeat: no-repeat;
+ 
+}
+
+li.kid1:hover{background-image: url(letot.png);
+  text-align: center;
+  font-size: 0px; 
+  background-position: center;
+  transition-duration: 700ms;
+}    
+
+
+li.kid2{background-image: url(zima.png);
+  height: 445px;
+  width: 22%;
+  text-align: center;
+  font-size: 0px;
+  background-position: center;
+  border-radius: 15px;
+  transition-duration: 700ms;
+  background-repeat: no-repeat;
+
+}
+
+li.kid2:hover{background-image: url(zimat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 700ms;
+}          
+
+li.kid3{background-image: url(priroda.png);
+  height: 445px;
+  width: 22%;
+margin-right: 20px;
+margin-left: 20px;
+text-align: center;          
+font-size: 0px;
+background-position: center;
+border-radius: 15px;
+transition-duration: 700ms;
+background-repeat: no-repeat;
+
+}      
+
+li.kid3:hover{background-image: url(prirodat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 700ms;
+}
+li.kid4{background-image: url(investicia.png);
+  height: 445px;
+  width: 22%;
+   margin-right: auto;
+   text-align: center;
+   font-size: 0px;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 15px;
+   transition-duration: 700ms;
+ 
+}
+
+li.kid4:hover{background-image: url(investiciat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  background-position: center;
+  transition-duration: 700ms;
+ }
+
+
+
+
+
+
+
+ @media screen and (max-width:1200px) {
+  ul.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 2000px;
+  }
+  li.kid1{
+    background-image: url(letot.png);
+    margin: 0;
+    padding: 0;
+    width:80vw;
+
+  }
+  li.kid2{
+    background-image: url(zimat.png);
+    margin: 0;
+    padding: 0;
+    width:80vw;
+    margin-top: 20px;
+
+  }
+  li.kid3{
+    background-image: url(prirodat.png);
+    margin: 0;
+    padding: 0;
+    width:80vw;
+    margin-top: 20px;
+
+  }
+  li.kid4{
+    background-image: url(investiciat.png);
+    margin: 0;
+    padding: 0;
+    width:80vw;
+    margin-top: 20px;
+
+  }
+ }
